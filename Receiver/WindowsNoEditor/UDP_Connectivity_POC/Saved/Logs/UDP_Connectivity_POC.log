@@ -1,0 +1,573 @@
+﻿Log file open, 08/22/18 13:39:05
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-613893800) SRandInit(-613893800).
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.361752
+LogD3D11RHI: Aftermath initialized
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.024s to configure plugins.
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: WinSock: I am DESKTOP-FCRQPM7 (192.168.0.181:0)
+LogInit: Build: ++UE4+Release-4.19-CL-4033788
+LogInit: Engine Version: 4.19.2-4033788+++UE4+Release-4.19
+LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
+LogInit: Net CL: 3944462
+LogDevObjectVersion: Number of dev versions registered: 18
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 23
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 33
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 25
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 6
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 1
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 2
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 16
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogInit: Compiled (64-bit): Apr 27 2018 02:10:52
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: DebugGame
+LogInit: Branch Name: ++UE4+Release-4.19
+LogInit: Command Line:  
+LogInit: Base Directory: D:/SynergicStudio/UDP_Connectivity_POC/Test2/WindowsNoEditor/UDP_Connectivity_POC/Binaries/Win64/
+LogInit: Installed Engine Build: 0
+LogStreaming: Display: Took  0.000s to delete old logs.
+LogInit: Presizing for max 2097152 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogStreaming: Display: Async Loading initialized: Event Driven Loader: true, Async Loading Thread: false
+LogInit: Object subsystem initialized
+[2018.08.22-17.39.05:596][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
+[2018.08.22-17.39.05:596][  0]LogInit: Applying CVar settings loaded from the selected device profile: [WindowsNoEditor]
+[2018.08.22-17.39.05:600][  0]LogInit: Computer: DESKTOP-FCRQPM7
+[2018.08.22-17.39.05:600][  0]LogInit: User: Dmitri
+[2018.08.22-17.39.05:600][  0]LogInit: CPU Page size=4096, Cores=6
+[2018.08.22-17.39.05:600][  0]LogInit: High frequency timer resolution =3.117189 MHz
+[2018.08.22-17.39.05:600][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.08.22-17.39.05:600][  0]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2018.08.22-17.39.05:600][  0]LogMemory: Process Physical Memory: 95.51 MB used, 95.51 MB peak
+[2018.08.22-17.39.05:600][  0]LogMemory: Process Virtual Memory: 108.19 MB used, 108.19 MB peak
+[2018.08.22-17.39.05:600][  0]LogMemory: Physical Memory: 4532.15 MB used,  11812.15 MB free, 16344.30 MB total
+[2018.08.22-17.39.05:600][  0]LogMemory: Virtual Memory: 4477.44 MB used,  11812.15 MB free, 134217728.00 MB total
+[2018.08.22-17.39.05:613][  0]LogInit: Using OS detected language (en-US).
+[2018.08.22-17.39.05:613][  0]LogInit: Using OS detected locale (en-CA).
+[2018.08.22-17.39.05:613][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
+[2018.08.22-17.39.05:613][  0]LogTextLocalizationManager: No localization for 'en-CA' exists, so 'en' will be used for the locale.
+[2018.08.22-17.39.05:633][  0]LogStreaming: Display: Took  0.020s to EndInitTextLocalization.
+[2018.08.22-17.39.05:645][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.08.22-17.39.05:645][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.08.22-17.39.05:649][  0]LogD3D11RHI: D3D11 adapters:
+[2018.08.22-17.39.05:700][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080 Ti' (Feature Level 11_0)
+[2018.08.22-17.39.05:700][  0]LogD3D11RHI:       11127/0/8172 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.08.22-17.39.05:702][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.08.22-17.39.05:702][  0]LogD3D11RHI:       0/0/8172 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.08.22-17.39.05:702][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.08.22-17.39.05:706][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.08.22-17.39.05:706][  0]LogD3D11RHI:     GPU DeviceId: 0x1b06 (for the marketing name, search the web for "GPU Device Id")
+[2018.08.22-17.39.05:706][  0]LogWindows: EnumDisplayDevices:
+[2018.08.22-17.39.05:706][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080 Ti' (P:1 D:1)
+[2018.08.22-17.39.05:706][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
+[2018.08.22-17.39.05:706][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
+[2018.08.22-17.39.05:706][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
+[2018.08.22-17.39.05:707][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.08.22-17.39.05:707][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080 Ti
+[2018.08.22-17.39.05:707][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.08.22-17.39.05:707][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.08.22-17.39.05:707][  0]LogRHI: Texture pool is 7788 MB (70% of 11127 MB)
+[2018.08.22-17.39.05:733][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.08.22-17.39.05:734][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.08.22-17.39.05:734][  0]LogD3D11RHI: Async texture creation enabled
+[2018.08.22-17.39.05:752][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.08.22-17.39.05:800][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.08.22-17.39.05:800][  0]LogSlate: Using Freetype 2.6.0
+[2018.08.22-17.39.05:800][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.08.22-17.39.05:800][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.08.22-17.39.05:835][  0]LogAssetRegistry: FAssetRegistry took 0.0081 seconds to start up
+[2018.08.22-17.39.05:904][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 1 prioritized culture(s) in 0.003085 seconds
+[2018.08.22-17.39.05:905][  0]LogPakFile: New pak file ../../../UDP_Connectivity_POC/Content/Paks/UDP_Connectivity_POC-WindowsNoEditor.pak added to pak precacher.
+[2018.08.22-17.39.05:906][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
+[2018.08.22-17.39.05:929][  0]LogNetVersion: UDP_Connectivity_POC , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4163925544)
+[2018.08.22-17.39.06:030][  0]LogMoviePlayer: Initializing movie player
+[2018.08.22-17.39.06:168][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.08.22-17.39.06:168][  0]LogOcInput: OculusInput pre-init called
+[2018.08.22-17.39.06:171][  0]LogUObjectArray: 32166 objects as part of root set at end of initial load.
+[2018.08.22-17.39.06:171][  0]LogUObjectAllocator: 5928912 out of 0 bytes used by permanent object pool.
+[2018.08.22-17.39.06:171][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.08.22-17.39.06:182][  0]LogEngine: Initializing Engine...
+[2018.08.22-17.39.06:183][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.08.22-17.39.06:194][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.08.22-17.39.06:194][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.08.22-17.39.06:257][  0]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.08.22-17.39.06:267][  0]LogInit: FAudioDevice initialized.
+[2018.08.22-17.39.06:278][  0]LogInit: Texture streaming: Enabled
+[2018.08.22-17.39.06:280][  0]LogInit: Display: Game Engine Initialized.
+[2018.08.22-17.39.06:280][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.08.22-17.39.06:280][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.08.22-17.39.06:280][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.08.22-17.39.06:287][  0]LogInit: Display: Starting Game.
+[2018.08.22-17.39.06:287][  0]LogNet: Browse: /Game/NewMap1?Name=Player
+[2018.08.22-17.39.06:287][  0]LogLoad: LoadMap: /Game/NewMap1?Name=Player
+[2018.08.22-17.39.06:303][  0]LogAIModule: Creating AISystem for world NewMap1
+[2018.08.22-17.39.06:304][  0]LogLoad: Game class is 'new_gm_C'
+[2018.08.22-17.39.06:304][  0]LogWorld: Bringing World /Game/NewMap1.NewMap1 up for play (max tick rate 0) at 2018.08.22-13.39.06
+[2018.08.22-17.39.06:304][  0]LogWorld: Bringing up level for play took: 0.000497
+[2018.08.22-17.39.06:305][  0]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.08.22-17.39.06:305][  0]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.08.22-17.39.06:305][  0]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.08.22-17.39.06:317][  0]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.08.22-17.39.06:317][  0]LogLoad: Took 0.029486 seconds to LoadMap(/Game/NewMap1)
+[2018.08.22-17.39.06:347][  0]LogSlate: Took 0.000119 seconds to synchronously load lazily loaded font '../../../Engine/Content/EngineFonts/Faces/RobotoRegular.ufont' (155K)
+[2018.08.22-17.39.06:350][  0]LogLoad: (Engine Initialization) Total time: 1.40 seconds
+[2018.08.22-17.39.06:391][  0]LogRenderer: Reallocating scene render targets to support 800x800 Format 10 NumSamples 1 (Frame:1).
+[2018.08.22-17.39.06:423][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.08.22-17.39.06:446][  1]LogConsoleResponse: Display: 
+[2018.08.22-17.39.06:462][  2]LogConsoleResponse: Display: 
+[2018.08.22-17.39.06:478][  3]LogConsoleResponse: Display: 
+[2018.08.22-17.39.06:495][  4]LogConsoleResponse: Display: 
+[2018.08.22-17.39.06:511][  5]LogConsoleResponse: Display: 
+[2018.08.22-17.39.07:204][ 49]LogBlueprintUserMessages: [BP_Receiver_502] Data number 10 sent at Time stamp: +13:39:07.194  received at 39:7:194
+[2018.08.22-17.39.08:204][111]LogBlueprintUserMessages: [BP_Receiver_502] Data number 11 sent at Time stamp: +13:39:08.194  received at 39:8:194
+[2018.08.22-17.39.13:893][114]LogBlueprintUserMessages: [BP_Receiver_502] Data number 12 sent at Time stamp: +13:39:09.194  received at 39:9:194
+[2018.08.22-17.39.13:893][114]LogBlueprintUserMessages: [BP_Receiver_502] Data number 13 sent at Time stamp: +13:39:10.194  received at 39:10:194
+[2018.08.22-17.39.13:893][114]LogBlueprintUserMessages: [BP_Receiver_502] Data number 14 sent at Time stamp: +13:39:11.194  received at 39:11:194
+[2018.08.22-17.39.13:893][114]LogBlueprintUserMessages: [BP_Receiver_502] Data number 15 sent at Time stamp: +13:39:12.194  received at 39:12:194
+[2018.08.22-17.39.13:893][114]LogBlueprintUserMessages: [BP_Receiver_502] Data number 16 sent at Time stamp: +13:39:13.194  received at 39:13:194
+[2018.08.22-17.39.14:200][134]LogBlueprintUserMessages: [BP_Receiver_502] Data number 17 sent at Time stamp: +13:39:14.194  received at 39:14:194
+[2018.08.22-17.39.15:201][196]LogBlueprintUserMessages: [BP_Receiver_502] Data number 18 sent at Time stamp: +13:39:15.194  received at 39:15:194
+[2018.08.22-17.39.16:201][258]LogBlueprintUserMessages: [BP_Receiver_502] Data number 19 sent at Time stamp: +13:39:16.195  received at 39:16:195
+[2018.08.22-17.39.17:201][320]LogBlueprintUserMessages: [BP_Receiver_502] Data number 20 sent at Time stamp: +13:39:17.195  received at 39:17:195
+[2018.08.22-17.39.18:200][382]LogBlueprintUserMessages: [BP_Receiver_502] Data number 21 sent at Time stamp: +13:39:18.194  received at 39:18:195
+[2018.08.22-17.39.19:201][444]LogBlueprintUserMessages: [BP_Receiver_502] Data number 22 sent at Time stamp: +13:39:19.194  received at 39:19:194
+[2018.08.22-17.39.20:200][506]LogBlueprintUserMessages: [BP_Receiver_502] Data number 23 sent at Time stamp: +13:39:20.194  received at 39:20:194
+[2018.08.22-17.39.21:201][568]LogBlueprintUserMessages: [BP_Receiver_502] Data number 24 sent at Time stamp: +13:39:21.194  received at 39:21:194
+[2018.08.22-17.39.22:201][630]LogBlueprintUserMessages: [BP_Receiver_502] Data number 25 sent at Time stamp: +13:39:22.195  received at 39:22:195
+[2018.08.22-17.39.23:201][692]LogBlueprintUserMessages: [BP_Receiver_502] Data number 26 sent at Time stamp: +13:39:23.195  received at 39:23:195
+[2018.08.22-17.39.24:201][754]LogBlueprintUserMessages: [BP_Receiver_502] Data number 27 sent at Time stamp: +13:39:24.195  received at 39:24:195
+[2018.08.22-17.39.25:201][816]LogBlueprintUserMessages: [BP_Receiver_502] Data number 28 sent at Time stamp: +13:39:25.194  received at 39:25:195
+[2018.08.22-17.39.26:201][878]LogBlueprintUserMessages: [BP_Receiver_502] Data number 29 sent at Time stamp: +13:39:26.195  received at 39:26:195
+[2018.08.22-17.39.27:201][940]LogBlueprintUserMessages: [BP_Receiver_502] Data number 30 sent at Time stamp: +13:39:27.195  received at 39:27:195
+[2018.08.22-17.39.28:201][  2]LogBlueprintUserMessages: [BP_Receiver_502] Data number 31 sent at Time stamp: +13:39:28.195  received at 39:28:195
+[2018.08.22-17.39.29:201][ 64]LogBlueprintUserMessages: [BP_Receiver_502] Data number 32 sent at Time stamp: +13:39:29.195  received at 39:29:195
+[2018.08.22-17.39.30:201][126]LogBlueprintUserMessages: [BP_Receiver_502] Data number 33 sent at Time stamp: +13:39:30.195  received at 39:30:195
+[2018.08.22-17.39.31:201][188]LogBlueprintUserMessages: [BP_Receiver_502] Data number 34 sent at Time stamp: +13:39:31.194  received at 39:31:195
+[2018.08.22-17.39.32:201][250]LogBlueprintUserMessages: [BP_Receiver_502] Data number 35 sent at Time stamp: +13:39:32.195  received at 39:32:195
+[2018.08.22-17.39.33:201][312]LogBlueprintUserMessages: [BP_Receiver_502] Data number 36 sent at Time stamp: +13:39:33.195  received at 39:33:195
+[2018.08.22-17.39.34:201][374]LogBlueprintUserMessages: [BP_Receiver_502] Data number 37 sent at Time stamp: +13:39:34.195  received at 39:34:195
+[2018.08.22-17.39.35:201][436]LogBlueprintUserMessages: [BP_Receiver_502] Data number 38 sent at Time stamp: +13:39:35.195  received at 39:35:195
+[2018.08.22-17.39.36:201][498]LogBlueprintUserMessages: [BP_Receiver_502] Data number 39 sent at Time stamp: +13:39:36.195  received at 39:36:195
+[2018.08.22-17.39.37:202][560]LogBlueprintUserMessages: [BP_Receiver_502] Data number 40 sent at Time stamp: +13:39:37.195  received at 39:37:195
+[2018.08.22-17.39.38:201][622]LogBlueprintUserMessages: [BP_Receiver_502] Data number 41 sent at Time stamp: +13:39:38.196  received at 39:38:196
+[2018.08.22-17.39.39:201][684]LogBlueprintUserMessages: [BP_Receiver_502] Data number 42 sent at Time stamp: +13:39:39.195  received at 39:39:195
+[2018.08.22-17.39.40:201][746]LogBlueprintUserMessages: [BP_Receiver_502] Data number 43 sent at Time stamp: +13:39:40.195  received at 39:40:195
+[2018.08.22-17.39.41:202][808]LogBlueprintUserMessages: [BP_Receiver_502] Data number 44 sent at Time stamp: +13:39:41.196  received at 39:41:196
+[2018.08.22-17.39.42:201][870]LogBlueprintUserMessages: [BP_Receiver_502] Data number 45 sent at Time stamp: +13:39:42.195  received at 39:42:195
+[2018.08.22-17.39.43:201][932]LogBlueprintUserMessages: [BP_Receiver_502] Data number 46 sent at Time stamp: +13:39:43.195  received at 39:43:195
+[2018.08.22-17.39.44:201][994]LogBlueprintUserMessages: [BP_Receiver_502] Data number 47 sent at Time stamp: +13:39:44.195  received at 39:44:195
+[2018.08.22-17.39.45:202][ 56]LogBlueprintUserMessages: [BP_Receiver_502] Data number 48 sent at Time stamp: +13:39:45.196  received at 39:45:196
+[2018.08.22-17.39.46:201][118]LogBlueprintUserMessages: [BP_Receiver_502] Data number 49 sent at Time stamp: +13:39:46.195  received at 39:46:195
+[2018.08.22-17.39.47:201][180]LogBlueprintUserMessages: [BP_Receiver_502] Data number 50 sent at Time stamp: +13:39:47.195  received at 39:47:195
+[2018.08.22-17.39.48:202][242]LogBlueprintUserMessages: [BP_Receiver_502] Data number 51 sent at Time stamp: +13:39:48.195  received at 39:48:196
+[2018.08.22-17.39.49:202][304]LogBlueprintUserMessages: [BP_Receiver_502] Data number 52 sent at Time stamp: +13:39:49.195  received at 39:49:195
+[2018.08.22-17.39.50:202][366]LogBlueprintUserMessages: [BP_Receiver_502] Data number 53 sent at Time stamp: +13:39:50.195  received at 39:50:195
+[2018.08.22-17.39.51:202][428]LogBlueprintUserMessages: [BP_Receiver_502] Data number 54 sent at Time stamp: +13:39:51.196  received at 39:51:196
+[2018.08.22-17.39.52:201][490]LogBlueprintUserMessages: [BP_Receiver_502] Data number 55 sent at Time stamp: +13:39:52.187  received at 39:52:187
+[2018.08.22-17.39.53:191][547]LogBlueprintUserMessages: [BP_Receiver_502] Data number 56 sent at Time stamp: +13:39:53.187  received at 39:53:187
+[2018.08.22-17.39.54:192][609]LogBlueprintUserMessages: [BP_Receiver_502] Data number 57 sent at Time stamp: +13:39:54.187  received at 39:54:187
+[2018.08.22-17.39.55:192][671]LogBlueprintUserMessages: [BP_Receiver_502] Data number 58 sent at Time stamp: +13:39:55.187  received at 39:55:187
+[2018.08.22-17.39.56:192][733]LogBlueprintUserMessages: [BP_Receiver_502] Data number 59 sent at Time stamp: +13:39:56.188  received at 39:56:188
+[2018.08.22-17.39.57:192][795]LogBlueprintUserMessages: [BP_Receiver_502] Data number 60 sent at Time stamp: +13:39:57.187  received at 39:57:188
+[2018.08.22-17.39.58:192][857]LogBlueprintUserMessages: [BP_Receiver_502] Data number 61 sent at Time stamp: +13:39:58.187  received at 39:58:187
+[2018.08.22-17.39.59:192][919]LogBlueprintUserMessages: [BP_Receiver_502] Data number 62 sent at Time stamp: +13:39:59.187  received at 39:59:187
+[2018.08.22-17.40.00:192][981]LogBlueprintUserMessages: [BP_Receiver_502] Data number 63 sent at Time stamp: +13:40:00.187  received at 40:0:187
+[2018.08.22-17.40.01:192][ 43]LogBlueprintUserMessages: [BP_Receiver_502] Data number 64 sent at Time stamp: +13:40:01.188  received at 40:1:188
+[2018.08.22-17.40.02:192][105]LogBlueprintUserMessages: [BP_Receiver_502] Data number 65 sent at Time stamp: +13:40:02.187  received at 40:2:187
+[2018.08.22-17.40.03:192][167]LogBlueprintUserMessages: [BP_Receiver_502] Data number 66 sent at Time stamp: +13:40:03.187  received at 40:3:187
+[2018.08.22-17.40.04:192][229]LogBlueprintUserMessages: [BP_Receiver_502] Data number 67 sent at Time stamp: +13:40:04.187  received at 40:4:187
+[2018.08.22-17.40.05:192][291]LogBlueprintUserMessages: [BP_Receiver_502] Data number 68 sent at Time stamp: +13:40:05.187  received at 40:5:187
+[2018.08.22-17.40.06:192][353]LogBlueprintUserMessages: [BP_Receiver_502] Data number 69 sent at Time stamp: +13:40:06.187  received at 40:6:187
+[2018.08.22-17.40.07:192][415]LogBlueprintUserMessages: [BP_Receiver_502] Data number 70 sent at Time stamp: +13:40:07.188  received at 40:7:188
+[2018.08.22-17.40.08:192][477]LogBlueprintUserMessages: [BP_Receiver_502] Data number 71 sent at Time stamp: +13:40:08.188  received at 40:8:188
+[2018.08.22-17.40.09:192][539]LogBlueprintUserMessages: [BP_Receiver_502] Data number 72 sent at Time stamp: +13:40:09.188  received at 40:9:188
+[2018.08.22-17.40.10:192][601]LogBlueprintUserMessages: [BP_Receiver_502] Data number 73 sent at Time stamp: +13:40:10.188  received at 40:10:188
+[2018.08.22-17.40.11:192][663]LogBlueprintUserMessages: [BP_Receiver_502] Data number 74 sent at Time stamp: +13:40:11.187  received at 40:11:187
+[2018.08.22-17.40.12:192][725]LogBlueprintUserMessages: [BP_Receiver_502] Data number 75 sent at Time stamp: +13:40:12.187  received at 40:12:187
+[2018.08.22-17.40.13:192][787]LogBlueprintUserMessages: [BP_Receiver_502] Data number 76 sent at Time stamp: +13:40:13.187  received at 40:13:187
+[2018.08.22-17.40.14:192][849]LogBlueprintUserMessages: [BP_Receiver_502] Data number 77 sent at Time stamp: +13:40:14.188  received at 40:14:188
+[2018.08.22-17.40.15:192][911]LogBlueprintUserMessages: [BP_Receiver_502] Data number 78 sent at Time stamp: +13:40:15.188  received at 40:15:188
+[2018.08.22-17.40.16:192][973]LogBlueprintUserMessages: [BP_Receiver_502] Data number 79 sent at Time stamp: +13:40:16.188  received at 40:16:188
+[2018.08.22-17.40.17:192][ 35]LogBlueprintUserMessages: [BP_Receiver_502] Data number 80 sent at Time stamp: +13:40:17.188  received at 40:17:188
+[2018.08.22-17.40.18:192][ 97]LogBlueprintUserMessages: [BP_Receiver_502] Data number 81 sent at Time stamp: +13:40:18.188  received at 40:18:188
+[2018.08.22-17.40.19:192][159]LogBlueprintUserMessages: [BP_Receiver_502] Data number 82 sent at Time stamp: +13:40:19.188  received at 40:19:188
+[2018.08.22-17.40.20:192][221]LogBlueprintUserMessages: [BP_Receiver_502] Data number 83 sent at Time stamp: +13:40:20.187  received at 40:20:187
+[2018.08.22-17.40.21:193][283]LogBlueprintUserMessages: [BP_Receiver_502] Data number 84 sent at Time stamp: +13:40:21.188  received at 40:21:188
+[2018.08.22-17.40.22:192][345]LogBlueprintUserMessages: [BP_Receiver_502] Data number 85 sent at Time stamp: +13:40:22.187  received at 40:22:188
+[2018.08.22-17.40.23:192][407]LogBlueprintUserMessages: [BP_Receiver_502] Data number 86 sent at Time stamp: +13:40:23.188  received at 40:23:188
+[2018.08.22-17.40.24:192][469]LogBlueprintUserMessages: [BP_Receiver_502] Data number 87 sent at Time stamp: +13:40:24.187  received at 40:24:187
+[2018.08.22-17.40.25:192][531]LogBlueprintUserMessages: [BP_Receiver_502] Data number 88 sent at Time stamp: +13:40:25.187  received at 40:25:187
+[2018.08.22-17.40.26:193][593]LogBlueprintUserMessages: [BP_Receiver_502] Data number 89 sent at Time stamp: +13:40:26.188  received at 40:26:188
+[2018.08.22-17.40.27:193][655]LogBlueprintUserMessages: [BP_Receiver_502] Data number 90 sent at Time stamp: +13:40:27.188  received at 40:27:188
+[2018.08.22-17.40.28:193][717]LogBlueprintUserMessages: [BP_Receiver_502] Data number 91 sent at Time stamp: +13:40:28.188  received at 40:28:188
+[2018.08.22-17.40.29:193][779]LogBlueprintUserMessages: [BP_Receiver_502] Data number 92 sent at Time stamp: +13:40:29.188  received at 40:29:188
+[2018.08.22-17.40.30:192][841]LogBlueprintUserMessages: [BP_Receiver_502] Data number 93 sent at Time stamp: +13:40:30.187  received at 40:30:187
+[2018.08.22-17.40.31:192][903]LogBlueprintUserMessages: [BP_Receiver_502] Data number 94 sent at Time stamp: +13:40:31.188  received at 40:31:188
+[2018.08.22-17.40.32:193][965]LogBlueprintUserMessages: [BP_Receiver_502] Data number 95 sent at Time stamp: +13:40:32.188  received at 40:32:188
+[2018.08.22-17.40.33:193][ 27]LogBlueprintUserMessages: [BP_Receiver_502] Data number 96 sent at Time stamp: +13:40:33.188  received at 40:33:188
+[2018.08.22-17.40.34:193][ 89]LogBlueprintUserMessages: [BP_Receiver_502] Data number 97 sent at Time stamp: +13:40:34.188  received at 40:34:188
+[2018.08.22-17.40.35:193][151]LogBlueprintUserMessages: [BP_Receiver_502] Data number 98 sent at Time stamp: +13:40:35.188  received at 40:35:188
+[2018.08.22-17.40.36:193][213]LogBlueprintUserMessages: [BP_Receiver_502] Data number 99 sent at Time stamp: +13:40:36.188  received at 40:36:188
+[2018.08.22-17.40.37:192][275]LogBlueprintUserMessages: [BP_Receiver_502] Data number 100 sent at Time stamp: +13:40:37.188  received at 40:37:188
+[2018.08.22-17.40.38:192][337]LogBlueprintUserMessages: [BP_Receiver_502] Data number 101 sent at Time stamp: +13:40:38.188  received at 40:38:188
+[2018.08.22-17.40.39:193][399]LogBlueprintUserMessages: [BP_Receiver_502] Data number 102 sent at Time stamp: +13:40:39.188  received at 40:39:188
+[2018.08.22-17.40.40:193][461]LogBlueprintUserMessages: [BP_Receiver_502] Data number 103 sent at Time stamp: +13:40:40.188  received at 40:40:188
+[2018.08.22-17.40.41:193][523]LogBlueprintUserMessages: [BP_Receiver_502] Data number 104 sent at Time stamp: +13:40:41.188  received at 40:41:188
+[2018.08.22-17.40.42:193][585]LogBlueprintUserMessages: [BP_Receiver_502] Data number 105 sent at Time stamp: +13:40:42.188  received at 40:42:188
+[2018.08.22-17.40.43:193][647]LogBlueprintUserMessages: [BP_Receiver_502] Data number 106 sent at Time stamp: +13:40:43.188  received at 40:43:188
+[2018.08.22-17.40.44:193][709]LogBlueprintUserMessages: [BP_Receiver_502] Data number 107 sent at Time stamp: +13:40:44.188  received at 40:44:188
+[2018.08.22-17.40.45:193][771]LogBlueprintUserMessages: [BP_Receiver_502] Data number 108 sent at Time stamp: +13:40:45.189  received at 40:45:189
+[2018.08.22-17.40.46:193][833]LogBlueprintUserMessages: [BP_Receiver_502] Data number 109 sent at Time stamp: +13:40:46.188  received at 40:46:188
+[2018.08.22-17.40.47:193][895]LogBlueprintUserMessages: [BP_Receiver_502] Data number 110 sent at Time stamp: +13:40:47.188  received at 40:47:189
+[2018.08.22-17.40.48:193][957]LogBlueprintUserMessages: [BP_Receiver_502] Data number 111 sent at Time stamp: +13:40:48.188  received at 40:48:188
+[2018.08.22-17.40.49:193][ 19]LogBlueprintUserMessages: [BP_Receiver_502] Data number 112 sent at Time stamp: +13:40:49.188  received at 40:49:189
+[2018.08.22-17.40.50:193][ 81]LogBlueprintUserMessages: [BP_Receiver_502] Data number 113 sent at Time stamp: +13:40:50.188  received at 40:50:188
+[2018.08.22-17.40.51:193][143]LogBlueprintUserMessages: [BP_Receiver_502] Data number 114 sent at Time stamp: +13:40:51.188  received at 40:51:188
+[2018.08.22-17.40.52:193][205]LogBlueprintUserMessages: [BP_Receiver_502] Data number 115 sent at Time stamp: +13:40:52.188  received at 40:52:188
+[2018.08.22-17.40.53:193][267]LogBlueprintUserMessages: [BP_Receiver_502] Data number 116 sent at Time stamp: +13:40:53.188  received at 40:53:188
+[2018.08.22-17.40.54:193][329]LogBlueprintUserMessages: [BP_Receiver_502] Data number 117 sent at Time stamp: +13:40:54.188  received at 40:54:189
+[2018.08.22-17.40.55:193][391]LogBlueprintUserMessages: [BP_Receiver_502] Data number 118 sent at Time stamp: +13:40:55.188  received at 40:55:188
+[2018.08.22-17.40.56:193][453]LogBlueprintUserMessages: [BP_Receiver_502] Data number 119 sent at Time stamp: +13:40:56.188  received at 40:56:188
+[2018.08.22-17.40.57:194][515]LogBlueprintUserMessages: [BP_Receiver_502] Data number 120 sent at Time stamp: +13:40:57.189  received at 40:57:189
+[2018.08.22-17.40.58:193][577]LogBlueprintUserMessages: [BP_Receiver_502] Data number 121 sent at Time stamp: +13:40:58.189  received at 40:58:189
+[2018.08.22-17.40.59:193][639]LogBlueprintUserMessages: [BP_Receiver_502] Data number 122 sent at Time stamp: +13:40:59.188  received at 40:59:188
+[2018.08.22-17.41.00:193][701]LogBlueprintUserMessages: [BP_Receiver_502] Data number 123 sent at Time stamp: +13:41:00.189  received at 41:0:189
+[2018.08.22-17.41.01:193][763]LogBlueprintUserMessages: [BP_Receiver_502] Data number 124 sent at Time stamp: +13:41:01.189  received at 41:1:189
+[2018.08.22-17.41.02:193][825]LogBlueprintUserMessages: [BP_Receiver_502] Data number 125 sent at Time stamp: +13:41:02.188  received at 41:2:188
+[2018.08.22-17.41.03:194][887]LogBlueprintUserMessages: [BP_Receiver_502] Data number 126 sent at Time stamp: +13:41:03.189  received at 41:3:189
+[2018.08.22-17.41.04:193][949]LogBlueprintUserMessages: [BP_Receiver_502] Data number 127 sent at Time stamp: +13:41:04.188  received at 41:4:188
+[2018.08.22-17.41.05:193][ 11]LogBlueprintUserMessages: [BP_Receiver_502] Data number 128 sent at Time stamp: +13:41:05.188  received at 41:5:188
+[2018.08.22-17.41.06:194][ 73]LogBlueprintUserMessages: [BP_Receiver_502] Data number 129 sent at Time stamp: +13:41:06.189  received at 41:6:189
+[2018.08.22-17.41.07:193][135]LogBlueprintUserMessages: [BP_Receiver_502] Data number 130 sent at Time stamp: +13:41:07.188  received at 41:7:189
+[2018.08.22-17.41.08:194][197]LogBlueprintUserMessages: [BP_Receiver_502] Data number 131 sent at Time stamp: +13:41:08.189  received at 41:8:189
+[2018.08.22-17.41.09:193][259]LogBlueprintUserMessages: [BP_Receiver_502] Data number 132 sent at Time stamp: +13:41:09.189  received at 41:9:189
+[2018.08.22-17.41.10:194][321]LogBlueprintUserMessages: [BP_Receiver_502] Data number 133 sent at Time stamp: +13:41:10.189  received at 41:10:189
+[2018.08.22-17.41.11:194][383]LogBlueprintUserMessages: [BP_Receiver_502] Data number 134 sent at Time stamp: +13:41:11.189  received at 41:11:189
+[2018.08.22-17.41.12:193][445]LogBlueprintUserMessages: [BP_Receiver_502] Data number 135 sent at Time stamp: +13:41:12.189  received at 41:12:189
+[2018.08.22-17.41.13:193][507]LogBlueprintUserMessages: [BP_Receiver_502] Data number 136 sent at Time stamp: +13:41:13.189  received at 41:13:189
+[2018.08.22-17.41.14:193][569]LogBlueprintUserMessages: [BP_Receiver_502] Data number 137 sent at Time stamp: +13:41:14.189  received at 41:14:189
+[2018.08.22-17.41.15:194][631]LogBlueprintUserMessages: [BP_Receiver_502] Data number 138 sent at Time stamp: +13:41:15.189  received at 41:15:189
+[2018.08.22-17.41.16:193][693]LogBlueprintUserMessages: [BP_Receiver_502] Data number 139 sent at Time stamp: +13:41:16.189  received at 41:16:189
+[2018.08.22-17.41.17:193][755]LogBlueprintUserMessages: [BP_Receiver_502] Data number 140 sent at Time stamp: +13:41:17.189  received at 41:17:189
+[2018.08.22-17.41.18:203][817]LogBlueprintUserMessages: [BP_Receiver_502] Data number 141 sent at Time stamp: +13:41:18.192  received at 41:18:192
+[2018.08.22-17.41.19:203][879]LogBlueprintUserMessages: [BP_Receiver_502] Data number 142 sent at Time stamp: +13:41:19.192  received at 41:19:192
+[2018.08.22-17.41.20:203][941]LogBlueprintUserMessages: [BP_Receiver_502] Data number 143 sent at Time stamp: +13:41:20.192  received at 41:20:193
+[2018.08.22-17.41.21:203][  3]LogBlueprintUserMessages: [BP_Receiver_502] Data number 144 sent at Time stamp: +13:41:21.193  received at 41:21:193
+[2018.08.22-17.41.22:203][ 65]LogBlueprintUserMessages: [BP_Receiver_502] Data number 145 sent at Time stamp: +13:41:22.193  received at 41:22:193
+[2018.08.22-17.41.23:204][127]LogBlueprintUserMessages: [BP_Receiver_502] Data number 146 sent at Time stamp: +13:41:23.194  received at 41:23:194
+[2018.08.22-17.41.24:203][189]LogBlueprintUserMessages: [BP_Receiver_502] Data number 147 sent at Time stamp: +13:41:24.193  received at 41:24:193
+[2018.08.22-17.41.25:203][251]LogBlueprintUserMessages: [BP_Receiver_502] Data number 148 sent at Time stamp: +13:41:25.193  received at 41:25:193
+[2018.08.22-17.41.26:203][313]LogBlueprintUserMessages: [BP_Receiver_502] Data number 149 sent at Time stamp: +13:41:26.192  received at 41:26:192
+[2018.08.22-17.41.27:203][375]LogBlueprintUserMessages: [BP_Receiver_502] Data number 150 sent at Time stamp: +13:41:27.192  received at 41:27:192
+[2018.08.22-17.41.28:203][437]LogBlueprintUserMessages: [BP_Receiver_502] Data number 151 sent at Time stamp: +13:41:28.192  received at 41:28:192
+[2018.08.22-17.41.29:203][499]LogBlueprintUserMessages: [BP_Receiver_502] Data number 152 sent at Time stamp: +13:41:29.193  received at 41:29:193
+[2018.08.22-17.41.30:203][561]LogBlueprintUserMessages: [BP_Receiver_502] Data number 153 sent at Time stamp: +13:41:30.193  received at 41:30:193
+[2018.08.22-17.41.31:204][623]LogBlueprintUserMessages: [BP_Receiver_502] Data number 154 sent at Time stamp: +13:41:31.193  received at 41:31:193
+[2018.08.22-17.41.32:203][685]LogBlueprintUserMessages: [BP_Receiver_502] Data number 155 sent at Time stamp: +13:41:32.193  received at 41:32:193
+[2018.08.22-17.41.33:203][747]LogBlueprintUserMessages: [BP_Receiver_502] Data number 156 sent at Time stamp: +13:41:33.193  received at 41:33:193
+[2018.08.22-17.41.34:203][809]LogBlueprintUserMessages: [BP_Receiver_502] Data number 157 sent at Time stamp: +13:41:34.193  received at 41:34:193
+[2018.08.22-17.41.35:203][871]LogBlueprintUserMessages: [BP_Receiver_502] Data number 158 sent at Time stamp: +13:41:35.193  received at 41:35:193
+[2018.08.22-17.41.36:203][933]LogBlueprintUserMessages: [BP_Receiver_502] Data number 159 sent at Time stamp: +13:41:36.192  received at 41:36:193
+[2018.08.22-17.41.37:203][995]LogBlueprintUserMessages: [BP_Receiver_502] Data number 160 sent at Time stamp: +13:41:37.193  received at 41:37:193
+[2018.08.22-17.41.38:203][ 57]LogBlueprintUserMessages: [BP_Receiver_502] Data number 161 sent at Time stamp: +13:41:38.193  received at 41:38:193
+[2018.08.22-17.41.39:203][119]LogBlueprintUserMessages: [BP_Receiver_502] Data number 162 sent at Time stamp: +13:41:39.193  received at 41:39:193
+[2018.08.22-17.41.40:203][181]LogBlueprintUserMessages: [BP_Receiver_502] Data number 163 sent at Time stamp: +13:41:40.193  received at 41:40:193
+[2018.08.22-17.41.41:203][243]LogBlueprintUserMessages: [BP_Receiver_502] Data number 164 sent at Time stamp: +13:41:41.193  received at 41:41:193
+[2018.08.22-17.41.42:203][305]LogBlueprintUserMessages: [BP_Receiver_502] Data number 165 sent at Time stamp: +13:41:42.193  received at 41:42:193
+[2018.08.22-17.41.43:203][367]LogBlueprintUserMessages: [BP_Receiver_502] Data number 166 sent at Time stamp: +13:41:43.193  received at 41:43:193
+[2018.08.22-17.41.44:204][429]LogBlueprintUserMessages: [BP_Receiver_502] Data number 167 sent at Time stamp: +13:41:44.193  received at 41:44:193
+[2018.08.22-17.41.45:203][491]LogBlueprintUserMessages: [BP_Receiver_502] Data number 168 sent at Time stamp: +13:41:45.193  received at 41:45:193
+[2018.08.22-17.41.46:203][553]LogBlueprintUserMessages: [BP_Receiver_502] Data number 169 sent at Time stamp: +13:41:46.193  received at 41:46:194
+[2018.08.22-17.41.47:203][615]LogBlueprintUserMessages: [BP_Receiver_502] Data number 170 sent at Time stamp: +13:41:47.193  received at 41:47:193
+[2018.08.22-17.41.48:203][677]LogBlueprintUserMessages: [BP_Receiver_502] Data number 171 sent at Time stamp: +13:41:48.193  received at 41:48:193
+[2018.08.22-17.41.49:203][739]LogBlueprintUserMessages: [BP_Receiver_502] Data number 172 sent at Time stamp: +13:41:49.193  received at 41:49:194
+[2018.08.22-17.41.50:203][801]LogBlueprintUserMessages: [BP_Receiver_502] Data number 173 sent at Time stamp: +13:41:50.193  received at 41:50:193
+[2018.08.22-17.41.51:204][863]LogBlueprintUserMessages: [BP_Receiver_502] Data number 174 sent at Time stamp: +13:41:51.194  received at 41:51:194
+[2018.08.22-17.41.52:203][925]LogBlueprintUserMessages: [BP_Receiver_502] Data number 175 sent at Time stamp: +13:41:52.193  received at 41:52:193
+[2018.08.22-17.41.53:204][987]LogBlueprintUserMessages: [BP_Receiver_502] Data number 176 sent at Time stamp: +13:41:53.193  received at 41:53:194
+[2018.08.22-17.41.54:204][ 49]LogBlueprintUserMessages: [BP_Receiver_502] Data number 177 sent at Time stamp: +13:41:54.193  received at 41:54:193
+[2018.08.22-17.41.55:203][111]LogBlueprintUserMessages: [BP_Receiver_502] Data number 178 sent at Time stamp: +13:41:55.193  received at 41:55:194
+[2018.08.22-17.41.56:203][173]LogBlueprintUserMessages: [BP_Receiver_502] Data number 179 sent at Time stamp: +13:41:56.194  received at 41:56:194
+[2018.08.22-17.41.57:204][235]LogBlueprintUserMessages: [BP_Receiver_502] Data number 180 sent at Time stamp: +13:41:57.193  received at 41:57:193
+[2018.08.22-17.41.58:203][297]LogBlueprintUserMessages: [BP_Receiver_502] Data number 181 sent at Time stamp: +13:41:58.193  received at 41:58:193
+[2018.08.22-17.41.59:204][359]LogBlueprintUserMessages: [BP_Receiver_502] Data number 182 sent at Time stamp: +13:41:59.193  received at 41:59:194
+[2018.08.22-17.42.00:203][421]LogBlueprintUserMessages: [BP_Receiver_502] Data number 183 sent at Time stamp: +13:42:00.193  received at 42:0:193
+[2018.08.22-17.42.01:203][483]LogBlueprintUserMessages: [BP_Receiver_502] Data number 184 sent at Time stamp: +13:42:01.194  received at 42:1:194
+[2018.08.22-17.42.02:204][545]LogBlueprintUserMessages: [BP_Receiver_502] Data number 185 sent at Time stamp: +13:42:02.193  received at 42:2:193
+[2018.08.22-17.42.03:204][607]LogBlueprintUserMessages: [BP_Receiver_502] Data number 186 sent at Time stamp: +13:42:03.193  received at 42:3:193
+[2018.08.22-17.42.04:204][669]LogBlueprintUserMessages: [BP_Receiver_502] Data number 187 sent at Time stamp: +13:42:04.193  received at 42:4:193
+[2018.08.22-17.42.05:204][731]LogBlueprintUserMessages: [BP_Receiver_502] Data number 188 sent at Time stamp: +13:42:05.193  received at 42:5:193
+[2018.08.22-17.42.06:204][793]LogBlueprintUserMessages: [BP_Receiver_502] Data number 189 sent at Time stamp: +13:42:06.193  received at 42:6:193
+[2018.08.22-17.42.07:204][855]LogBlueprintUserMessages: [BP_Receiver_502] Data number 190 sent at Time stamp: +13:42:07.193  received at 42:7:193
+[2018.08.22-17.42.08:204][917]LogBlueprintUserMessages: [BP_Receiver_502] Data number 191 sent at Time stamp: +13:42:08.193  received at 42:8:193
+[2018.08.22-17.42.09:204][979]LogBlueprintUserMessages: [BP_Receiver_502] Data number 192 sent at Time stamp: +13:42:09.194  received at 42:9:194
+[2018.08.22-17.42.10:204][ 41]LogBlueprintUserMessages: [BP_Receiver_502] Data number 193 sent at Time stamp: +13:42:10.194  received at 42:10:194
+[2018.08.22-17.42.11:204][103]LogBlueprintUserMessages: [BP_Receiver_502] Data number 194 sent at Time stamp: +13:42:11.194  received at 42:11:194
+[2018.08.22-17.42.12:204][165]LogBlueprintUserMessages: [BP_Receiver_502] Data number 195 sent at Time stamp: +13:42:12.194  received at 42:12:194
+[2018.08.22-17.42.13:204][227]LogBlueprintUserMessages: [BP_Receiver_502] Data number 196 sent at Time stamp: +13:42:13.194  received at 42:13:194
+[2018.08.22-17.42.14:204][289]LogBlueprintUserMessages: [BP_Receiver_502] Data number 197 sent at Time stamp: +13:42:14.194  received at 42:14:194
+[2018.08.22-17.42.15:204][351]LogBlueprintUserMessages: [BP_Receiver_502] Data number 198 sent at Time stamp: +13:42:15.194  received at 42:15:194
+[2018.08.22-17.42.16:205][413]LogBlueprintUserMessages: [BP_Receiver_502] Data number 199 sent at Time stamp: +13:42:16.194  received at 42:16:194
+[2018.08.22-17.42.17:205][475]LogBlueprintUserMessages: [BP_Receiver_502] Data number 200 sent at Time stamp: +13:42:17.194  received at 42:17:195
+[2018.08.22-17.42.18:204][537]LogBlueprintUserMessages: [BP_Receiver_502] Data number 201 sent at Time stamp: +13:42:18.194  received at 42:18:194
+[2018.08.22-17.42.19:204][599]LogBlueprintUserMessages: [BP_Receiver_502] Data number 202 sent at Time stamp: +13:42:19.195  received at 42:19:195
+[2018.08.22-17.42.20:204][661]LogBlueprintUserMessages: [BP_Receiver_502] Data number 203 sent at Time stamp: +13:42:20.194  received at 42:20:195
+[2018.08.22-17.42.21:204][723]LogBlueprintUserMessages: [BP_Receiver_502] Data number 204 sent at Time stamp: +13:42:21.194  received at 42:21:195
+[2018.08.22-17.42.22:204][785]LogBlueprintUserMessages: [BP_Receiver_502] Data number 205 sent at Time stamp: +13:42:22.194  received at 42:22:194
+[2018.08.22-17.42.23:204][847]LogBlueprintUserMessages: [BP_Receiver_502] Data number 206 sent at Time stamp: +13:42:23.194  received at 42:23:194
+[2018.08.22-17.42.24:205][909]LogBlueprintUserMessages: [BP_Receiver_502] Data number 207 sent at Time stamp: +13:42:24.194  received at 42:24:194
+[2018.08.22-17.42.25:205][971]LogBlueprintUserMessages: [BP_Receiver_502] Data number 208 sent at Time stamp: +13:42:25.194  received at 42:25:194
+[2018.08.22-17.42.26:204][ 33]LogBlueprintUserMessages: [BP_Receiver_502] Data number 209 sent at Time stamp: +13:42:26.194  received at 42:26:194
+[2018.08.22-17.42.27:204][ 95]LogBlueprintUserMessages: [BP_Receiver_502] Data number 210 sent at Time stamp: +13:42:27.195  received at 42:27:195
+[2018.08.22-17.42.28:204][157]LogBlueprintUserMessages: [BP_Receiver_502] Data number 211 sent at Time stamp: +13:42:28.194  received at 42:28:194
+[2018.08.22-17.42.29:205][219]LogBlueprintUserMessages: [BP_Receiver_502] Data number 212 sent at Time stamp: +13:42:29.195  received at 42:29:195
+[2018.08.22-17.42.30:205][281]LogBlueprintUserMessages: [BP_Receiver_502] Data number 213 sent at Time stamp: +13:42:30.194  received at 42:30:194
+[2018.08.22-17.42.31:205][343]LogBlueprintUserMessages: [BP_Receiver_502] Data number 214 sent at Time stamp: +13:42:31.194  received at 42:31:195
+[2018.08.22-17.42.32:205][405]LogBlueprintUserMessages: [BP_Receiver_502] Data number 215 sent at Time stamp: +13:42:32.194  received at 42:32:194
+[2018.08.22-17.42.33:205][467]LogBlueprintUserMessages: [BP_Receiver_502] Data number 216 sent at Time stamp: +13:42:33.195  received at 42:33:195
+[2018.08.22-17.42.34:205][529]LogBlueprintUserMessages: [BP_Receiver_502] Data number 217 sent at Time stamp: +13:42:34.194  received at 42:34:195
+[2018.08.22-17.42.35:204][591]LogBlueprintUserMessages: [BP_Receiver_502] Data number 218 sent at Time stamp: +13:42:35.194  received at 42:35:194
+[2018.08.22-17.42.36:204][653]LogBlueprintUserMessages: [BP_Receiver_502] Data number 219 sent at Time stamp: +13:42:36.195  received at 42:36:195
+[2018.08.22-17.42.37:205][715]LogBlueprintUserMessages: [BP_Receiver_502] Data number 220 sent at Time stamp: +13:42:37.195  received at 42:37:195
+[2018.08.22-17.42.38:205][777]LogBlueprintUserMessages: [BP_Receiver_502] Data number 221 sent at Time stamp: +13:42:38.195  received at 42:38:195
+[2018.08.22-17.42.39:205][839]LogBlueprintUserMessages: [BP_Receiver_502] Data number 222 sent at Time stamp: +13:42:39.195  received at 42:39:195
+[2018.08.22-17.42.40:205][901]LogBlueprintUserMessages: [BP_Receiver_502] Data number 223 sent at Time stamp: +13:42:40.194  received at 42:40:195
+[2018.08.22-17.42.41:205][963]LogBlueprintUserMessages: [BP_Receiver_502] Data number 224 sent at Time stamp: +13:42:41.195  received at 42:41:195
+[2018.08.22-17.42.42:205][ 25]LogBlueprintUserMessages: [BP_Receiver_502] Data number 225 sent at Time stamp: +13:42:42.194  received at 42:42:194
+[2018.08.22-17.42.43:204][ 87]LogBlueprintUserMessages: [BP_Receiver_502] Data number 226 sent at Time stamp: +13:42:43.195  received at 42:43:195
+[2018.08.22-17.42.44:205][149]LogBlueprintUserMessages: [BP_Receiver_502] Data number 227 sent at Time stamp: +13:42:44.194  received at 42:44:195
+[2018.08.22-17.42.45:205][211]LogBlueprintUserMessages: [BP_Receiver_502] Data number 228 sent at Time stamp: +13:42:45.195  received at 42:45:195
+[2018.08.22-17.42.46:205][273]LogBlueprintUserMessages: [BP_Receiver_502] Data number 229 sent at Time stamp: +13:42:46.195  received at 42:46:195
+[2018.08.22-17.42.47:205][335]LogBlueprintUserMessages: [BP_Receiver_502] Data number 230 sent at Time stamp: +13:42:47.194  received at 42:47:194
+[2018.08.22-17.42.48:205][397]LogBlueprintUserMessages: [BP_Receiver_502] Data number 231 sent at Time stamp: +13:42:48.195  received at 42:48:195
+[2018.08.22-17.42.49:205][459]LogBlueprintUserMessages: [BP_Receiver_502] Data number 232 sent at Time stamp: +13:42:49.195  received at 42:49:195
+[2018.08.22-17.42.50:205][521]LogBlueprintUserMessages: [BP_Receiver_502] Data number 233 sent at Time stamp: +13:42:50.195  received at 42:50:195
+[2018.08.22-17.42.51:205][583]LogBlueprintUserMessages: [BP_Receiver_502] Data number 234 sent at Time stamp: +13:42:51.195  received at 42:51:195
+[2018.08.22-17.42.52:206][645]LogBlueprintUserMessages: [BP_Receiver_502] Data number 235 sent at Time stamp: +13:42:52.194  received at 42:52:194
+[2018.08.22-17.42.53:206][707]LogBlueprintUserMessages: [BP_Receiver_502] Data number 236 sent at Time stamp: +13:42:53.195  received at 42:53:195
+[2018.08.22-17.42.54:205][769]LogBlueprintUserMessages: [BP_Receiver_502] Data number 237 sent at Time stamp: +13:42:54.195  received at 42:54:195
+[2018.08.22-17.42.55:206][831]LogBlueprintUserMessages: [BP_Receiver_502] Data number 238 sent at Time stamp: +13:42:55.195  received at 42:55:195
+[2018.08.22-17.42.56:205][893]LogBlueprintUserMessages: [BP_Receiver_502] Data number 239 sent at Time stamp: +13:42:56.194  received at 42:56:195
+[2018.08.22-17.42.57:205][955]LogBlueprintUserMessages: [BP_Receiver_502] Data number 240 sent at Time stamp: +13:42:57.195  received at 42:57:195
+[2018.08.22-17.42.58:206][ 17]LogBlueprintUserMessages: [BP_Receiver_502] Data number 241 sent at Time stamp: +13:42:58.195  received at 42:58:195
+[2018.08.22-17.42.59:206][ 79]LogBlueprintUserMessages: [BP_Receiver_502] Data number 242 sent at Time stamp: +13:42:59.195  received at 42:59:196
+[2018.08.22-17.43.00:206][141]LogBlueprintUserMessages: [BP_Receiver_502] Data number 243 sent at Time stamp: +13:43:00.195  received at 43:0:195
+[2018.08.22-17.43.01:206][203]LogBlueprintUserMessages: [BP_Receiver_502] Data number 244 sent at Time stamp: +13:43:01.195  received at 43:1:195
+[2018.08.22-17.43.02:206][265]LogBlueprintUserMessages: [BP_Receiver_502] Data number 245 sent at Time stamp: +13:43:02.195  received at 43:2:195
+[2018.08.22-17.43.03:206][327]LogBlueprintUserMessages: [BP_Receiver_502] Data number 246 sent at Time stamp: +13:43:03.195  received at 43:3:195
+[2018.08.22-17.43.04:206][389]LogBlueprintUserMessages: [BP_Receiver_502] Data number 247 sent at Time stamp: +13:43:04.196  received at 43:4:196
+[2018.08.22-17.43.05:205][451]LogBlueprintUserMessages: [BP_Receiver_502] Data number 248 sent at Time stamp: +13:43:05.195  received at 43:5:195
+[2018.08.22-17.43.06:205][513]LogBlueprintUserMessages: [BP_Receiver_502] Data number 249 sent at Time stamp: +13:43:06.196  received at 43:6:196
+[2018.08.22-17.43.07:206][575]LogBlueprintUserMessages: [BP_Receiver_502] Data number 250 sent at Time stamp: +13:43:07.195  received at 43:7:195
+[2018.08.22-17.43.08:205][637]LogBlueprintUserMessages: [BP_Receiver_502] Data number 251 sent at Time stamp: +13:43:08.195  received at 43:8:195
+[2018.08.22-17.43.09:206][699]LogBlueprintUserMessages: [BP_Receiver_502] Data number 252 sent at Time stamp: +13:43:09.195  received at 43:9:196
+[2018.08.22-17.43.10:205][761]LogBlueprintUserMessages: [BP_Receiver_502] Data number 253 sent at Time stamp: +13:43:10.195  received at 43:10:195
+[2018.08.22-17.43.11:206][823]LogBlueprintUserMessages: [BP_Receiver_502] Data number 254 sent at Time stamp: +13:43:11.196  received at 43:11:196
+[2018.08.22-17.43.12:206][885]LogBlueprintUserMessages: [BP_Receiver_502] Data number 255 sent at Time stamp: +13:43:12.196  received at 43:12:196
+[2018.08.22-17.43.13:206][947]LogBlueprintUserMessages: [BP_Receiver_502] Data number 256 sent at Time stamp: +13:43:13.195  received at 43:13:196
+[2018.08.22-17.43.14:205][  9]LogBlueprintUserMessages: [BP_Receiver_502] Data number 257 sent at Time stamp: +13:43:14.195  received at 43:14:195
+[2018.08.22-17.43.15:206][ 71]LogBlueprintUserMessages: [BP_Receiver_502] Data number 258 sent at Time stamp: +13:43:15.196  received at 43:15:196
+[2018.08.22-17.43.16:206][133]LogBlueprintUserMessages: [BP_Receiver_502] Data number 259 sent at Time stamp: +13:43:16.195  received at 43:16:195
+[2018.08.22-17.43.17:206][195]LogBlueprintUserMessages: [BP_Receiver_502] Data number 260 sent at Time stamp: +13:43:17.196  received at 43:17:196
+[2018.08.22-17.43.18:206][257]LogBlueprintUserMessages: [BP_Receiver_502] Data number 261 sent at Time stamp: +13:43:18.195  received at 43:18:195
+[2018.08.22-17.43.19:206][319]LogBlueprintUserMessages: [BP_Receiver_502] Data number 262 sent at Time stamp: +13:43:19.196  received at 43:19:196
+[2018.08.22-17.43.20:206][381]LogBlueprintUserMessages: [BP_Receiver_502] Data number 263 sent at Time stamp: +13:43:20.195  received at 43:20:195
+[2018.08.22-17.43.21:206][443]LogBlueprintUserMessages: [BP_Receiver_502] Data number 264 sent at Time stamp: +13:43:21.195  received at 43:21:195
+[2018.08.22-17.43.22:206][505]LogBlueprintUserMessages: [BP_Receiver_502] Data number 265 sent at Time stamp: +13:43:22.195  received at 43:22:195
+[2018.08.22-17.43.23:206][567]LogBlueprintUserMessages: [BP_Receiver_502] Data number 266 sent at Time stamp: +13:43:23.195  received at 43:23:195
+[2018.08.22-17.43.24:207][629]LogBlueprintUserMessages: [BP_Receiver_502] Data number 267 sent at Time stamp: +13:43:24.196  received at 43:24:196
+[2018.08.22-17.43.25:206][691]LogBlueprintUserMessages: [BP_Receiver_502] Data number 268 sent at Time stamp: +13:43:25.195  received at 43:25:195
+[2018.08.22-17.43.26:207][753]LogBlueprintUserMessages: [BP_Receiver_502] Data number 269 sent at Time stamp: +13:43:26.196  received at 43:26:196
+[2018.08.22-17.43.27:206][815]LogBlueprintUserMessages: [BP_Receiver_502] Data number 270 sent at Time stamp: +13:43:27.195  received at 43:27:195
+[2018.08.22-17.43.28:206][877]LogBlueprintUserMessages: [BP_Receiver_502] Data number 271 sent at Time stamp: +13:43:28.195  received at 43:28:195
+[2018.08.22-17.43.29:207][939]LogBlueprintUserMessages: [BP_Receiver_502] Data number 272 sent at Time stamp: +13:43:29.195  received at 43:29:195
+[2018.08.22-17.43.30:207][  1]LogBlueprintUserMessages: [BP_Receiver_502] Data number 273 sent at Time stamp: +13:43:30.196  received at 43:30:196
+[2018.08.22-17.43.31:206][ 63]LogBlueprintUserMessages: [BP_Receiver_502] Data number 274 sent at Time stamp: +13:43:31.196  received at 43:31:196
+[2018.08.22-17.43.32:206][125]LogBlueprintUserMessages: [BP_Receiver_502] Data number 275 sent at Time stamp: +13:43:32.196  received at 43:32:196
+[2018.08.22-17.43.33:206][187]LogBlueprintUserMessages: [BP_Receiver_502] Data number 276 sent at Time stamp: +13:43:33.196  received at 43:33:196
+[2018.08.22-17.43.34:206][249]LogBlueprintUserMessages: [BP_Receiver_502] Data number 277 sent at Time stamp: +13:43:34.196  received at 43:34:196
+[2018.08.22-17.43.35:207][311]LogBlueprintUserMessages: [BP_Receiver_502] Data number 278 sent at Time stamp: +13:43:35.196  received at 43:35:196
+[2018.08.22-17.43.36:206][373]LogBlueprintUserMessages: [BP_Receiver_502] Data number 279 sent at Time stamp: +13:43:36.196  received at 43:36:196
+[2018.08.22-17.43.37:207][435]LogBlueprintUserMessages: [BP_Receiver_502] Data number 280 sent at Time stamp: +13:43:37.196  received at 43:37:196
+[2018.08.22-17.43.38:206][497]LogBlueprintUserMessages: [BP_Receiver_502] Data number 281 sent at Time stamp: +13:43:38.196  received at 43:38:196
+[2018.08.22-17.43.39:206][559]LogBlueprintUserMessages: [BP_Receiver_502] Data number 282 sent at Time stamp: +13:43:39.196  received at 43:39:196
+[2018.08.22-17.43.40:207][621]LogBlueprintUserMessages: [BP_Receiver_502] Data number 283 sent at Time stamp: +13:43:40.196  received at 43:40:196
+[2018.08.22-17.43.41:206][683]LogBlueprintUserMessages: [BP_Receiver_502] Data number 284 sent at Time stamp: +13:43:41.196  received at 43:41:196
+[2018.08.22-17.43.42:207][745]LogBlueprintUserMessages: [BP_Receiver_502] Data number 285 sent at Time stamp: +13:43:42.196  received at 43:42:196
+[2018.08.22-17.43.43:207][807]LogBlueprintUserMessages: [BP_Receiver_502] Data number 286 sent at Time stamp: +13:43:43.197  received at 43:43:197
+[2018.08.22-17.43.44:207][869]LogBlueprintUserMessages: [BP_Receiver_502] Data number 287 sent at Time stamp: +13:43:44.196  received at 43:44:196
+[2018.08.22-17.43.45:207][931]LogBlueprintUserMessages: [BP_Receiver_502] Data number 288 sent at Time stamp: +13:43:45.196  received at 43:45:196
+[2018.08.22-17.43.46:207][993]LogBlueprintUserMessages: [BP_Receiver_502] Data number 289 sent at Time stamp: +13:43:46.197  received at 43:46:197
+[2018.08.22-17.43.50:448][255]LogSlate: Request Window 'UDP_Connectivity_POC (64-bit, PCD3D_SM5) ' being destroyed
+[2018.08.22-17.43.50:474][255]LogSlate: Window 'UDP_Connectivity_POC (64-bit, PCD3D_SM5) ' being destroyed
+[2018.08.22-17.43.50:475][255]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.08.22-17.43.50:477][255]LogEngine: All Windows Closed
+[2018.08.22-17.43.50:477][255]LogWindows: FPlatformMisc::RequestExit(0)
+[2018.08.22-17.43.51:330][256]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.08.22-17.43.51:331][256]LogExit: Preparing to exit.
+[2018.08.22-17.43.51:331][256]LogMoviePlayer: Shutting down movie player
+[2018.08.22-17.43.51:335][256]LogExit: Game engine shut down
+[2018.08.22-17.43.51:352][256]LogExit: Object subsystem successfully closed.
+[2018.08.22-17.43.51:357][256]LogD3D11RHI: Shutdown
+[2018.08.22-17.43.51:357][256]LogD3D11RHI: CleanupD3DDevice
+[2018.08.22-17.43.51:359][256]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.08.22-17.43.51:359][256]LogModuleManager: Shutting down and abandoning module AutomationController (178)
+[2018.08.22-17.43.51:359][256]LogModuleManager: Shutting down and abandoning module AutomationWorker (176)
+[2018.08.22-17.43.51:359][256]LogModuleManager: Shutting down and abandoning module AIModule (174)
+[2018.08.22-17.43.51:359][256]LogModuleManager: Shutting down and abandoning module GameplayDebugger (173)
+[2018.08.22-17.43.51:359][256]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (170)
+[2018.08.22-17.43.51:359][256]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (168)
+[2018.08.22-17.43.51:359][256]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (166)
+[2018.08.22-17.43.51:359][256]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (164)
+[2018.08.22-17.43.51:359][256]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2018.08.22-17.43.51:359][256]LogModuleManager: Shutting down and abandoning module SessionServices (160)
+[2018.08.22-17.43.51:359][256]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (158)
+[2018.08.22-17.43.51:359][256]LogModuleManager: Shutting down and abandoning module MovieScene (156)
+[2018.08.22-17.43.51:359][256]LogModuleManager: Shutting down and abandoning module GeometryCache (154)
+[2018.08.22-17.43.51:359][256]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (152)
+[2018.08.22-17.43.51:359][256]LogModuleManager: Shutting down and abandoning module AnalyticsET (150)
+[2018.08.22-17.43.51:359][256]LogModuleManager: Shutting down and abandoning module ProfilerService (148)
+[2018.08.22-17.43.51:486][256]LogModuleManager: Shutting down and abandoning module TaskGraph (146)
+[2018.08.22-17.43.51:486][256]LogModuleManager: Shutting down and abandoning module SteamVRController (144)
+[2018.08.22-17.43.51:486][256]LogModuleManager: Shutting down and abandoning module OculusInput (142)
+[2018.08.22-17.43.51:486][256]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (140)
+[2018.08.22-17.43.51:486][256]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (138)
+[2018.08.22-17.43.51:486][256]LogModuleManager: Shutting down and abandoning module CableComponent (136)
+[2018.08.22-17.43.51:486][256]LogModuleManager: Shutting down and abandoning module AudioCapture (134)
+[2018.08.22-17.43.51:486][256]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (132)
+[2018.08.22-17.43.51:486][256]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (130)
+[2018.08.22-17.43.51:486][256]LogModuleManager: Shutting down and abandoning module AndroidPermission (128)
+[2018.08.22-17.43.51:486][256]LogModuleManager: Shutting down and abandoning module MediaCompositing (124)
+[2018.08.22-17.43.51:486][256]LogModuleManager: Shutting down and abandoning module LinearTimecode (122)
+[2018.08.22-17.43.51:486][256]LogModuleManager: Shutting down and abandoning module ImgMedia (120)
+[2018.08.22-17.43.51:487][256]LogModuleManager: Shutting down and abandoning module HTML5Networking (118)
+[2018.08.22-17.43.51:487][256]LogModuleManager: Shutting down and abandoning module DatasmithContent (116)
+[2018.08.22-17.43.51:487][256]LogModuleManager: Shutting down and abandoning module UDP_Connectivity_POC (114)
+[2018.08.22-17.43.51:487][256]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (112)
+[2018.08.22-17.43.51:487][256]LogModuleManager: Shutting down and abandoning module PhysXVehicles (110)
+[2018.08.22-17.43.51:487][256]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (108)
+[2018.08.22-17.43.51:487][256]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (106)
+[2018.08.22-17.43.51:487][256]LogModuleManager: Shutting down and abandoning module LiveLink (104)
+[2018.08.22-17.43.52:216][256]LogModuleManager: Shutting down and abandoning module ActorSequence (102)
+[2018.08.22-17.43.52:216][256]LogModuleManager: Shutting down and abandoning module UdpMessaging (100)
+[2018.08.22-17.43.52:216][256]LogModuleManager: Shutting down and abandoning module TcpMessaging (98)
+[2018.08.22-17.43.52:216][256]LogModuleManager: Shutting down and abandoning module FacialAnimation (96)
+[2018.08.22-17.43.52:216][256]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (94)
+[2018.08.22-17.43.52:216][256]LogModuleManager: Shutting down and abandoning module Paper2D (92)
+[2018.08.22-17.43.52:216][256]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (90)
+[2018.08.22-17.43.52:216][256]LogModuleManager: Shutting down and abandoning module WmfMedia (88)
+[2018.08.22-17.43.52:216][256]LogModuleManager: Shutting down and abandoning module PacketHandler (86)
+[2018.08.22-17.43.52:216][256]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (84)
+[2018.08.22-17.43.52:216][256]LogModuleManager: Shutting down and abandoning module MediaAssets (82)
+[2018.08.22-17.43.52:216][256]LogModuleManager: Shutting down and abandoning module Overlay (80)
+[2018.08.22-17.43.52:216][256]LogModuleManager: Shutting down and abandoning module UMG (78)
+[2018.08.22-17.43.52:216][256]LogModuleManager: Shutting down and abandoning module SlateReflector (76)
+[2018.08.22-17.43.52:216][256]LogModuleManager: Shutting down and abandoning module Slate (74)
+[2018.08.22-17.43.52:216][256]LogModuleManager: Shutting down and abandoning module MRMesh (72)
+[2018.08.22-17.43.52:216][256]LogModuleManager: Shutting down and abandoning module Messaging (70)
+[2018.08.22-17.43.52:216][256]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
+[2018.08.22-17.43.52:216][256]LogModuleManager: Shutting down and abandoning module XAudio2 (66)
+[2018.08.22-17.43.52:216][256]LogModuleManager: Shutting down and abandoning module Networking (64)
+[2018.08.22-17.43.52:216][256]LogModuleManager: Shutting down and abandoning module Core (62)
+[2018.08.22-17.43.52:216][256]LogModuleManager: Shutting down and abandoning module LevelSequence (60)
+[2018.08.22-17.43.52:216][256]LogModuleManager: Shutting down and abandoning module Media (58)
+[2018.08.22-17.43.52:223][256]LogModuleManager: Shutting down and abandoning module ImageWrapper (54)
+[2018.08.22-17.43.52:223][256]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2018.08.22-17.43.52:223][256]LogModuleManager: Shutting down and abandoning module PhysXCooking (50)
+[2018.08.22-17.43.52:223][256]LogModuleManager: Shutting down and abandoning module SteamVR (48)
+[2018.08.22-17.43.52:223][256]LogModuleManager: Shutting down and abandoning module OculusHMD (46)
+[2018.08.22-17.43.52:223][256]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2018.08.22-17.43.52:223][256]LogModuleManager: Shutting down and abandoning module AppleARKit (42)
+[2018.08.22-17.43.52:223][256]LogModuleManager: Shutting down and abandoning module AugmentedReality (39)
+[2018.08.22-17.43.52:223][256]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (34)
+[2018.08.22-17.43.52:223][256]LogModuleManager: Shutting down and abandoning module HTTP (33)
+[2018.08.22-17.43.52:223][256]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.08.22-17.43.52:223][256]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE0CBC9D3-426D-FD35-DE7B-648FF3E85A70%7D&AppID=UEGame.Rocket.Release%7CCFCE90804644461A2C45BD940716806D%7CUE4Game&AppVersion=4.19.2-4033788%2B%2B%2BUE4%2BRelease-4.19&UserID=ANON-%7B8A866711-4558-EC07-196E-01B2FC66CDA7%7D%7C%7C&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.08.22-17.43.52:227][256]LogModuleManager: Shutting down and abandoning module SSL (32)
+[2018.08.22-17.43.52:227][256]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.08.22-17.43.52:227][256]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.08.22-17.43.52:227][256]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.08.22-17.43.52:228][256]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.08.22-17.43.52:228][256]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.08.22-17.43.52:228][256]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.08.22-17.43.52:228][256]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.08.22-17.43.52:228][256]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.08.22-17.43.52:228][256]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.08.22-17.43.52:228][256]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.08.22-17.43.52:228][256]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.08.22-17.43.52:228][256]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.08.22-17.43.52:228][256]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.08.22-17.43.52:228][256]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.08.22-17.43.52:230][256]LogExit: Exiting.
+[2018.08.22-17.43.52:230][256]Log file closed, 08/22/18 13:43:52
